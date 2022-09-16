@@ -1,0 +1,214 @@
+@font-face{
+    font-family: 'modas';
+    src: url('../fontes/pacifico.ttf')format('truetype');
+    
+}
+@font-face{
+    font-family: 'descricao';
+    src: url('../fontes/numans.ttf')format('truetype');
+    
+}
+body{
+    background-color: #EFC1D7;
+}
+header {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: auto;
+    height: 150px;
+    margin-bottom: 4px; 
+    padding: 20px;
+    background-color: #EFC1D7;
+}
+#img_logo{
+    float:left; 
+    margin: 2px;
+    margin-top: -28px;  
+    margin-left: 2px; 
+}
+#titulo{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: 'modas','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+}
+footer {
+    margin-inline-end: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 4px;  
+    padding: 8px; 
+    background-color: #EFC1D7;
+    font-family: 'descricao';
+}
+nav { 
+    width: 400px; 
+    height: 800px;
+    border: 2px black solid; 
+    margin-left: 0px; 
+    margin-right: auto; 
+    margin-top: auto;
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+    background-color: #EFC1D7;
+    font-family: 'descricao';
+    font-size: 12pt;
+}
+
+nav li {
+    list-style: none; 
+    padding-bottom: 10px;
+    margin-left: -10px;
+    margin-top: 20px;
+    
+}
+li{
+    color: black;
+}
+nav a { 
+    text-decoration: none;
+    color: black;
+}
+nav li:hover {
+    color: purple; 
+    background-color: #E9D4F2;
+    border: 2px solid black;
+}
+nav li ul {	
+    position: absolute;
+    width: 150px;
+    height: 120px; 
+    left: 150px;
+	display: none;
+ }
+nav li:hover ul {
+    display: block;
+}
+
+main{ 
+    height: 792px;
+    width:1642px;
+    margin-left: 200px; 
+    margin-top: -810px;
+    margin-right: auto;
+    margin-bottom: 4px;
+    padding: 8px; 
+    border: 2px solid black;
+    padding-bottom: 2px;
+    background-color: #E9D4F2;
+}
+
+.modelo1{
+    margin-left: 15px;
+    margin-top: 50px;
+    font-family: 'descricao';
+}
+
+.modelo2{
+    margin-left: 380px;
+    margin-top: -250px;
+    font-family: 'descricao';
+}
+
+.modelo3{
+    margin-left: 720px;
+    margin-top: -250px; 
+    font-family: 'descricao';
+}
+.modelo4{
+    margin-left: 15px;
+    margin-top: 25px; 
+    font-family: 'descricao';
+}
+.modelo5{
+    margin-left: 380px;
+    margin-top: -250px; 
+    font-family: 'descricao';
+}
+.modelo6{
+    margin-left: 720px;
+    margin-top: -250px; 
+    font-family: 'descricao';
+}
+#com_cadastro{
+    width: 35%;
+    height: 60%;
+    margin-left: 1250px;
+    margin-top: -150px;
+    font-family: 'descricao';
+}
+#sem_cadastro{
+    width: 35%;
+    height: 60%;
+    margin-left: 1050px;
+    margin-top: -700px;
+    font-family: 'descricao';
+}
+#moda_fem,#moda_masc{
+    border: 2px solid black;
+    width: 55%;
+    font-family: 'modas';
+    text-align: center;
+   
+}
+form,
+label {
+  display: block;
+  padding: 6px;
+}
+form {
+    
+  width: 500px;
+  margin: 10px;
+  font-size: 8pt;
+}
+label {
+  color: black;
+  text-align: left;
+}
+input {
+  display: inline-block;
+  padding-left: 10px;
+  width: 300px;
+}
+#acesso{
+    margin-left: 2px;
+}
+.botao{
+    width: 100px;
+}
+#menu{
+    margin-left: 60px;
+}
+#contato{
+    margin-top: -125px;
+    margin-left: 1200px;
+}
+#redes{
+    margin-top: -150px;
+    margin-left: 600px;
+}
+#sobre{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+#trabalhe{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#telef{
+    margin-top: -22px;
+    margin-left: 30px;
+}
+#whats{
+    margin-top:  -28px;
+    margin-left: 30px;
+}
+#insta{
+    margin-top: -22px;
+    margin-left: 25px;
+}
+#facebook{
+    margin-top: -22px;
+    margin-left: 25px;
+}
